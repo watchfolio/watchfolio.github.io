@@ -14,72 +14,61 @@
       line-height: 1.6;
     }
     .container {
-      max-width: 700px;
-      margin: auto;
+      max-width: 720px;
+      margin: 0 auto;
       background: #ffffff;
       padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
     }
     h1 {
-      margin-top: 0;
+      margin: 0 0 12px 0;
       font-size: 32px;
+      letter-spacing: -0.02em;
     }
     h2 {
-      margin-top: 40px;
-      font-size: 20px;
+      margin: 34px 0 10px 0;
+      font-size: 18px;
+      letter-spacing: -0.01em;
     }
-    a {
-      color: #1a73e8;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #666;
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 0 0; padding-left: 20px; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: #666; font-size: 14px; margin-top: 28px; }
+    .card {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-top: 12px;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Watchfolio Support</h1>
-
-    <p>
-      Watchfolio is a private, ad-free journal for watch collectors.
-      If you need assistance, we’re here to help.
-    </p>
+    <p>Watchfolio is a private, ad-free journal designed for watch collectors to document and reflect on their collections.</p>
 
     <h2>Contact</h2>
-    <p>
-      Email: <a href="mailto:jasoncraigslisteller@gmail.com">jasoncraigslisteller@gmail.com</a>
-    </p>
+    <div class="card">
+      <p><strong>Email:</strong> <a href="mailto:jasoncraigslisteller@gmail.com">jasoncraigslisteller@gmail.com</a></p>
+      <p>Please include:</p>
+      <ul>
+        <li>App version</li>
+        <li>Device model</li>
+        <li>A brief description of the issue</li>
+      </ul>
+      <p>Typical response time: within 48 hours.</p>
+    </div>
 
-    <p>Please include:</p>
-    <ul>
-      <li>App version</li>
-      <li>Device model</li>
-      <li>A brief description of the issue</li>
-    </ul>
-
-    <p>
-      Typical response time: within 48 hours.
-    </p>
+    <h2>Ideas &amp; Suggestions</h2>
+    <p>Have ideas to improve Watchfolio? We welcome thoughtful suggestions from fellow collectors.</p>
 
     <h2>Privacy</h2>
-    <p>
-      Watchfolio does not collect personal data, run ads, or sell user information.
-      All collection data is stored locally on your device unless you choose to share it.
-    </p>
+    <p>Watchfolio does not collect personal data, run advertisements, or sell user information. Collection data is stored locally on your device unless you choose to share it.</p>
 
-    <div class="footer">
-      © 2026 Watchfolio
-    </div>
+    <p class="muted">© 2026 Watchfolio</p>
   </div>
 </body>
 </html>
